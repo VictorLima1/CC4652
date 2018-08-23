@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/victor/LDE/LDE.hpp
+iostream
+-
+No.hpp
+/home/victor/LDE/No.hpp
+
+/home/victor/LDE/No.hpp
+iostream
+-
+
+/home/victor/LDE/main.cpp
+iostream
+-
+LDE.hpp
+/home/victor/LDE/LDE.hpp
+
